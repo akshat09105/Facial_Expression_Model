@@ -121,14 +121,8 @@ Or for webcam:
 ## 👤 Author
 
 **Akshat Gupta**
-[LinkedIn](https://www.linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
-
+[LinkedIn](https://www.linkedin.com/in/akshat-gupta-6a27a331a/) • [GitHub](https://github.com/akshat09105)
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ---
 
 ## ⭐ Show Support
