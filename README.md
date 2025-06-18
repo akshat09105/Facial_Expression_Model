@@ -6,6 +6,7 @@ A deep learning model for recognizing facial expressions using **LandingAI Lens*
 
 ## 🧠 Features
 
+* Trained on more than 420+ labeled images
 * Emotion classification: Happy, Sad, Angry, Surprise, Fear, Disgust, Neutral
 * Trained via LandingAI's intuitive UI and robust cloud infrastructure
 * Easy deployment with LandingAI APIs
@@ -105,16 +106,11 @@ Or for webcam:
 
 ## 📌 Roadmap
 
-* [ ] Add Streamlit GUI
-* [ ] Batch prediction for folder of images
-* [ ] Export predictions to CSV
-* [ ] Integration with IoT devices
+*
 
 ---
 
 ## ✨ Made Using
-
-[![LandingAI](https://landing.ai/wp-content/uploads/2022/05/logo.svg)](https://www.landing.ai/)
 
 ---
 
@@ -122,6 +118,7 @@ Or for webcam:
 
 **Akshat Gupta**
 [LinkedIn](https://www.linkedin.com/in/akshat-gupta-6a27a331a/) • [GitHub](https://github.com/akshat09105)
+
 ---
 ---
 
