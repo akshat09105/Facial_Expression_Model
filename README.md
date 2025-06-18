@@ -25,3 +25,112 @@ A deep learning model for recognizing facial expressions using **LandingAI Lens*
 ---
 
 ## 📁 Project Structure
+
+```
+facial_expression_model/
+├── landingai_config.json     # LandingAI project config
+├── src/
+│   ├── predict.py            # API call to LandingAI for prediction
+│   └── utils.py              # Helper functions
+├── assets/                   # Sample images/videos
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/facial_expression_model.git
+cd facial_expression_model
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure LandingAI
+
+* Go to [LandingAI](https://www.landing.ai/)
+* Create a project and train your facial expression model using the Lens UI
+* Copy your `endpoint_id` and `API key`
+* Create a `landingai_config.json` file:
+
+```json
+{
+  "endpoint_id": "your-endpoint-id",
+  "api_key": "your-api-key"
+}
+```
+
+### 4. Run Prediction
+
+```bash
+python src/predict.py --image assets/test_face.jpg
+# OR
+python src/predict.py --webcam
+```
+
+---
+
+## 📊 Sample Prediction Output
+
+```bash
+Expression: Happy
+Confidence: 97.4%
+```
+
+Or for webcam:
+
+```
+[INFO] Capturing video stream...
+[INFO] Predicted: Angry (84.6%)
+```
+
+---
+
+## ✅ Example Use Cases
+
+* Retail store customer emotion analysis
+* Virtual classroom student feedback
+* Smart advertising panels
+* Wellness monitoring systems
+
+---
+
+## 📌 Roadmap
+
+* [ ] Add Streamlit GUI
+* [ ] Batch prediction for folder of images
+* [ ] Export predictions to CSV
+* [ ] Integration with IoT devices
+
+---
+
+## ✨ Made Using
+
+[![LandingAI](https://landing.ai/wp-content/uploads/2022/05/logo.svg)](https://www.landing.ai/)
+
+---
+
+## 👤 Author
+
+**Akshat Gupta**
+[LinkedIn](https://www.linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Show Support
+
+If you found this helpful, please give the repo a ⭐ — it helps others discover the project and keeps development going!
